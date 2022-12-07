@@ -92,3 +92,8 @@ p {
 img {
    border-radius: 6px;
 }
+#me {
+   border-radius: 200px;
+   border:#6c63ff 1px solid;
+   
+}
