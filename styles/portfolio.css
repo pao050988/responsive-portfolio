@@ -15,6 +15,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   color: black;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -41,7 +42,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .btn-branding {
@@ -61,4 +62,33 @@ p {
    line-height: 27px;
    padding: 15px 30px;
    
+}
+
+.project-description {
+   padding: 100px 60px;
+}
+
+@media (max-width:900px) {
+   .project-description {
+      padding: 0;
+      text-align: center;
+   }
+
+   .hero {
+      padding: 80px 20px;
+   }
+   h1 {
+      font-size: 50px;
+   }
+   h2 {
+      font-size: 44px;
+   }
+   
+   .container {
+      padding-left: 160px;
+   }
+}
+
+img {
+   border-radius: 6px;
 }
