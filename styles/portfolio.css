@@ -32,7 +32,7 @@ p {
 .hero {
   background: var(--branding-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   margin-bottom: 0;
   padding-bottom: 1px;
 }
@@ -94,6 +94,12 @@ p {
    
    .container {
       padding-left: 160px;
+      
+   }
+
+   #me {
+      width: 90px;
+
    }
 }
 
@@ -101,7 +107,7 @@ p {
    border-radius: 6px;
    }
 #me {
-   border-radius: 200px;
+   border-radius: 500px;
    border:#6c63ff 2px solid;
    
 }
