@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>&#128075 Paola Alejandra | Front-End Developer</title>
+    <title>&#128075 Paola Alejandra | About page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Raleway:ital,wght@0,300;1,200&family=Roboto:ital,wght@0,500;0,900;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -104,10 +104,29 @@
     .nav-item {
       justify-content: space-evenly;
     }
+
+
+    .footer {
       
-      
+      text-align: center;
+      font-family: var(--default-font-family);
+      font-size: 10px;
+      padding-bottom: 25px;
+    }
+
+    #about {
+        border-radius: 30px;
+        border:#6c63ff 2px solid;
+        
+    }
+    div {
+      display: flex;
+      justify-content: center;
+    }   
+           
     
-     @media (max-width: 600px) {
+    @media (max-width: 600px) {
+      
       .font-responsive {
         font-size: 40px;
         text-decoration: underline;
@@ -137,22 +156,7 @@
 
     }
   
-    #about {
-        border-radius: 30px;
-        border:#6c63ff 2px solid;
-        
-    }
-    div {
-      display: flex;
-      justify-content: center;
-    }
-    .footer {
-   justify-content: center;
-   text-align: center;
-   font-family: var(--default-font-family);
-   font-size: 12px;
-   padding-bottom: 25px;
-}
+
   
   </style>
   <body>
@@ -169,20 +173,20 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/index.html"><img src="/Images/3678158.png" alt="" width="28px"></a>
+        <a class="navbar-brand" href="/index.html"><img src="/Images/3678158.png" alt="" width="28px" title="woman coding"></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
+              <a class="nav-link" href="/about.html" title="about paola">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Certifications.html">Certifications</a>
+              <a class="nav-link" href="/Certifications.html" title="my certifications">Certifications</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Contact.html">Contact Me</a>
+              <a class="nav-link" href="/Contact.html" title="my contact">Contact Me</a>
             </li>
           </ul>
           
@@ -195,7 +199,7 @@
     <h2 class="h-responsive">Front-End Developer Student/Trainee at SheCodes</h2>
     <h3 class="h-responsive">Based in Colombia</h3>
     <div>
-    <img src="/Images/about image.jpeg" alt="me" width="180px" class="img-fluid p-2 shadow rounded" id="about"></div>
+    <img src="/Images/about image.jpeg" alt="me" width="180px" class="img-fluid p-2 shadow rounded" id="about" title="paola"></div>
     <div class="about-paragraphs">
       <div class="row">
           <div class="col"><p class="paragraphs text-muted">
@@ -226,7 +230,7 @@
     </div>
   </div> 
   <footer>
-      <div class="footer display-flex" > This project is<a href=" https://github.com/pao050988/responsive-portfolio" target="_blank">-Open-source-</a>
+      <div class="footer" >This project is<a href=" https://github.com/pao050988/responsive-portfolio" target="_blank">-Open-source-</a>
        and was Created by Paola A, also it is hosted on <a href="https://app.netlify.com/teams/pao050988/overview" target="_blank"> -Netlify-</a> </div>
     </footer>
     
