@@ -79,6 +79,13 @@ p {
 .project-description {
    padding: 100px 60px;
 }
+.footer {
+   justify-content: center;
+   text-align: center;
+   font-family: var(--default-font-family);
+   font-size: 12px;
+   padding-bottom: 25px;
+}
 
 @media (max-width:900px) {
    .project-description {
